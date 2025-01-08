@@ -9,12 +9,12 @@ module.exports = {
     "./error.vue",
   ],
   daisyui: {
-    themes: ["light", "cupcake"],
+    themes: ["light"], // Active les thèmes light et dark
   },
   theme: {
-    extend: {dataValue: 'l'},
+    extend: {},
   },
   plugins: [
     require('daisyui'),
   ],
-}
+};

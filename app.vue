@@ -2,9 +2,9 @@
 import NavCompo from './components/nav/NavCompo.vue'
 </script>
 
-<template>
-  <div data-theme="light">
-    <NuxtPage />
+<template >
+<div data-theme="light">
+    <NuxtPage  />
   </div>
 </template>
 
