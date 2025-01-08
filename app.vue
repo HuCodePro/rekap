@@ -1,5 +1,4 @@
 <script setup >
-import NavCompo from './components/nav/NavCompo.vue'
 </script>
 
 <template >
