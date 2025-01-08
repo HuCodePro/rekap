@@ -8,8 +8,11 @@ module.exports = {
     "./app.vue",
     "./error.vue",
   ],
+  daisyui: {
+    themes: ["light", "cupcake"],
+  },
   theme: {
-    extend: {},
+    extend: {dataValue: 'l'},
   },
   plugins: [
     require('daisyui'),
